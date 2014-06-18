@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{17A2E574-1F35-2E50-A4C3-389EA2B20C11}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Engine\ViNoInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\AnimationNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\DialogPartNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\GUICommon.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\JumpTargetNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\NodeGUI.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\PlaySoundNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ScenarioNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\SelectionsNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ViNodeInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\SimpleSoundPlayerInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\ViNoSoundPlayerInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ColorPanelInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\SimpleButtonInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\TransformGUIButtonInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextBoxInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextEventListenerInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextMeshEventListenerInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\DialogPartNodeUtility.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\FlagTableInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ScenarioCtrlInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneCreatorInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SystemUIEventInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ViNoSaveInfoInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorResources.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorUtil.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoScenarioDataUtil.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DialogItemInspector.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawObjectsTab.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawSamplesTab.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawScenarioTab.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawTemplatesTab.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawViNodesTab.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ObjectCreateTool.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ViNoToolbar.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Wizard\ActorCreateWizard.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Wizard\SceneCreateWizard.cs" />
+     <Compile Include="Assets\VisualNovelToolkit\Scripts\Sample\Editor\CreateSampleGUI.cs" />
+     <None Include="Assets\VisualNovelToolkit\Resources\Shader\Unlit Alpha.shader" />
+     <None Include="Assets\VisualNovelToolkit\ReadMe_Japanese.txt" />
+     <None Include="Assets\VisualNovelToolkit\Resources\BGM\ReadMe.txt" />
+     <None Include="Assets\VisualNovelToolkit\Examples\Example Dialog\ReadMe.txt" />
+     <None Include="Assets\VisualNovelToolkit\ReadMe.txt" />
+     <None Include="Assets\VisualNovelToolkit\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\VisualNovelToolkit\Resources\Effects\ReadMe.txt" />
+ <Reference Include="DLL">
+ <HintPath>/Users/June-min/Downloads/Proto-master/Proto/Assets/VisualNovelToolkit/DLLs/DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{E664FD66-7241-7A36-2258-61F3C4E7918E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{DD39CB38-ACEB-1A86-B115-DE004FC080E0}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
