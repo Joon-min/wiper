@@ -10,7 +10,7 @@ time=1;
           {
                     for(var j=0;j<2;j++)
                     {
-                              window[i,j]=GameObject.Find("Window "+(i+1)+"0"+(j+1)).transform;
+                              window[i,j]=GameObject.Find("Window "+(j+1)+"0"+(i+1)).transform;
                     }
           }
 }

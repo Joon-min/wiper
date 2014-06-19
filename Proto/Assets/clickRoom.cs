@@ -4,8 +4,8 @@ using System.Collections;
 public class clickRoom : MonoBehaviour {
 
 	public Transform target;
-	void onMouseDown(){
+	
+    void onMouseDown(){
 		target.position = transform.position;
-
 	}
 }

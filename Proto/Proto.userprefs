@@ -1,9 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Inventory.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\roomObjective.cs">
     <Files>
-      <File FileName="PlayerMoney.cs" Line="8" Column="14" />
-      <File FileName="Assets/Inventory.js" Line="1" Column="1" />
+      <File FileName="Assets\clickRoom.cs" Line="9" Column="40" />
+      <File FileName="Assets\windowClean.cs" Line="75" Column="14" />
+      <File FileName="Assets\GlobalLogic02.cs" Line="79" Column="36" />
+      <File FileName="Assets\PlayerControl05.cs" Line="17" Column="33" />
+      <File FileName="Assets\RoomClick02.cs" Line="1" Column="1" />
+      <File FileName="Assets\clickRoom.cs" Line="1" Column="1" />
+      <File FileName="Assets\returnOutside.cs" Line="1" Column="1" />
+      <File FileName="Assets\RoomClick.js" Line="1" Column="1" />
+      <File FileName="Assets\roomObjective.cs" Line="11" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

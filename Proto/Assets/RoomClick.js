@@ -1,5 +1,5 @@
 ﻿#pragma strict
-var Level="Room 01";
+var Level="window";
 var target : Transform;
 
 function Update () {

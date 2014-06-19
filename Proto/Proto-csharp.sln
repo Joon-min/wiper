@@ -23,17 +23,29 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-																											GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																										GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> FETCH_HEAD
+					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-UnityScript.unityproj
 		Policies = $0
 		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ArrayInitializerBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
@@ -45,12 +57,21 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 		$0.TextStylePolicy = $4
-		$4.inheritsSet = VisualStudio
+		$4.TabsToSpaces = True
+		$4.EolMarker = Windows
+		$4.inheritsSet = Mono
 		$4.inheritsScope = text/plain
 		$4.scope = application/javascript
 		$0.StandardHeader = $5
 		$5.Text = 
 		$5.IncludeInNewFiles = True
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = text/x-shader
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/x-unitytxt
+		GlobalSection(MonoDevelopProperties) = preSolution
 	EndGlobalSection
 
 EndGlobal
