@@ -94,10 +94,10 @@
      <None Include="Assets\VisualNovelToolkit\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\VisualNovelToolkit\Resources\Effects\ReadMe.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/June-min/Downloads/Proto-master/Proto/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/June-min/wiper/Proto/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="DLL">
- <HintPath>/Users/June-min/Downloads/Proto-master/Proto/Assets/VisualNovelToolkit/DLLs/DLL.dll</HintPath>
+ <HintPath>/Users/June-min/wiper/Proto/Assets/VisualNovelToolkit/DLLs/DLL.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

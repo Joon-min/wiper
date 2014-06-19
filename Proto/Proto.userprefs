@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerControl02.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Inventory.js">
     <Files>
-      <File FileName="Assets/VisualNovelToolkit/Scripts/ViNo/UI/TouchScreen.cs" Line="68" Column="1" />
-      <File FileName="Assets/VisualNovelToolkit/Scripts/Sample/GUI/GUIInputHelp.cs" Line="23" Column="1" />
-      <File FileName="Assets/SceneENd.js" Line="5" Column="28" />
-      <File FileName="Assets/CameraControl.js" Line="8" Column="51" />
-      <File FileName="Assets/PlayerControl02.js" Line="10" Column="13" />
-      <File FileName="Assets/GlobalLogic.js" Line="1" Column="1" />
+      <File FileName="PlayerMoney.cs" Line="8" Column="14" />
+      <File FileName="Assets/Inventory.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
