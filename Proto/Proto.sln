@@ -30,6 +30,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 				GlobalSection(MonoDevelopProperties) = preSolution
+																																								GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																									GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> FETCH_HEAD
 		StartupItem = Assembly-UnityScript.unityproj
 		Policies = $0
 		$0.TextStylePolicy = $1
