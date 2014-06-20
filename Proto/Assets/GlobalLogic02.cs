@@ -64,6 +64,10 @@ public class GlobalLogic02 : MonoBehaviour
         // Update is called once per frame
     void Update()
     {
+        timeUp();
+    }
+    static public void timeUp()
+    {
         curTime += Time.deltaTime * 3;
         min = (int)curTime;
         if (min >= 60)
@@ -74,6 +78,11 @@ public class GlobalLogic02 : MonoBehaviour
         m = min;
         h = hour;
         mo = curMoney;
+        if (hour >= 6)
+        {
+            nextDay();
+            Application.LoadLevel("hotel01");
+        }
     }
 
     static GlobalLogic02 _instance;

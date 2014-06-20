@@ -11,6 +11,6 @@ public class GlobalLogic_Window : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        GlobalLogic02.timeUp();
 	}
 }

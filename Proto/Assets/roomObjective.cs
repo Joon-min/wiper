@@ -3,7 +3,7 @@ using System.Collections;
 
 public class roomObjective : MonoBehaviour {
     static public int findObject=1;
-    static public Transform[] target=new Transform[FindObject];
+    static public Transform[] target=new Transform[findObject];
 	// Use this for initialization
 	void Start () {
 	
@@ -11,6 +11,7 @@ public class roomObjective : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        GlobalLogic02.timeUp();
 	
 	}
 }
